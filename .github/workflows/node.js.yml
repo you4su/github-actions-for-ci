@@ -5,8 +5,8 @@ on: [push]
 jobs:
   - uses: actions/upload-artifact@master
     needs: build
-          name: webpack artifacts
-          path: public/
+    name: webpack artifacts
+    path: public/
 
     runs-on: ubuntu-latest
 
